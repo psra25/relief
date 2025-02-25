@@ -19,3 +19,5 @@ the bottom shows up at the very bottom. That's about the height of the display
 know the height of the text I used, so you can slightly scroll up and down.
 It's not a problem but its imperfection that could lead to more problems in
 the future.
+
+2/24/25: I'm looking back into this, now having tried to use Github to publish. This is a solution for now. Quite rusty but alhamdulillah start.
