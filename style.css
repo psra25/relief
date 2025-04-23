@@ -28,11 +28,12 @@ body {
 /* Links of the Navigation Bar, plus hovering details and setting buttons to their positions */
 #navigationBar a {
     margin: 0px;
-    padding: 1.5vw;
+    padding: 1.5vh;
     display: inline-block;
-    color: MintCream;
+    color: white;
     /*background-color: #000000;*/
     text-decoration: none;
+    font-size: 3vh;
     
 } #navigationBar a:hover {
     background-color: #900000;
@@ -45,7 +46,7 @@ body {
     
 } #navigationBarPlaceHolder {
     margin: 0px;
-    padding: 1.5vw;
+    padding: 1.5vh;
 }
 
 /* Actual written content */
@@ -61,15 +62,14 @@ body {
     width: 100%;
     min-height: 50vh;
     background-size: cover;
-    background-attachment: fixed;
     filter: grayscale(1);
 /* Words on the image */
 } #content .content-header-image-comment {
-    color: black;
+    color: white;
     width: 100%;
     min-height: inherit;
-    font-size: 3vw;
-    font-weight: none;
+    font-size: 5vw;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
 /* Details about the written content */
 #writtenContentHome {
     padding: 3vw;
-    background-color: MintCream;
+    background-color: inherit;
 
 /* Headers - Level 3 */
 } #writtenContentHome h3 {
@@ -93,8 +93,9 @@ body {
 /* Footer details */
 #footer {
     background-color: DarkGreen;
-    color: Azure;
+    color: white;
     padding: 1.5vw;
+    font-size: 2vh;
 }
 
 /* Miscalleneous texts: Empty indications */
@@ -106,6 +107,10 @@ body {
 /* Sizing for different devices: If it is too big, resize it down */
 @media screen and (min-width: 1250px) {
     body {
+        font-size: 1vw;
+    }
+    
+    h3 {
         font-size: 1vw;
     }
     
